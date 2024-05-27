@@ -1,3 +1,18 @@
+# UniversalDemo to make and run with Angular Universal
+
+# generate new angular application
+ng new universalDemo
+# add angular universal and exrpress engine to the application
+ng add @nguniversal/express-engine
+# build applicatin to run with Angular Universal
+npm run build:ssr
+# serve applicatin to run with Angular Universal
+npm run serve:ssr
+http://localhost:4000
+
+# *************************************************************************************************************
+# Below are the Default Notes:
+
 # UniversalDemo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
