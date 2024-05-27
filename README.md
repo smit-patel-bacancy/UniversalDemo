@@ -4,9 +4,9 @@
 ng new universalDemo
 ## add angular universal and express engine to the application
 ng add @nguniversal/express-engine
-## build applicatin to run with Angular Universal
+## build application to run with Angular Universal on Server
 npm run build:ssr
-## serve applicatin to run with Angular Universal
+## serve application to serve with Angular Universal from server
 npm run serve:ssr
 http://localhost:4000
 
